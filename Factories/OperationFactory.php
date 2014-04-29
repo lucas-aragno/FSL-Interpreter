@@ -1,6 +1,7 @@
 <?php
 	require_once('Operations/Operation.php');
 	require_once('Operations/MathematicalOperation.php');
+	require_once('Operations/RegularOperation.php');
 	require_once('Operations/Add.php');
 	require_once('Operations/Multiplication.php');
     require_once('Operations/Divide.php');

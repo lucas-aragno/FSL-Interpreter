@@ -14,6 +14,10 @@
 
 	   	public function getValue(){
 	   		return $this -> _value;
+	   	}
+
+	   	public function store(){
+	   		$redis -> set($this -> _name, $this -> _value);
 	   	}		
 	}
 ?>
