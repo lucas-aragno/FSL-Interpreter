@@ -1,7 +1,7 @@
 <?php
-abstract class MathematicalOperation
+class MathematicalOperation
 {
-    private $_operands;
+    protected $_operands;
 
 		function __construct($operands) {
 	       $_operands = array();

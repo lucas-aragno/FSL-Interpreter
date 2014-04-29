@@ -1,5 +1,5 @@
 <?php
-	class Print implements Operation{
+	class PrintOperation implements Operation{
 		private $_operands;
 
 		function __construct($operands) {

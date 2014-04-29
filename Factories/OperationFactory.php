@@ -5,7 +5,7 @@
 	require_once('Operations/Multiplication.php');
     require_once('Operations/Divide.php');
 	require_once('Operations/Substract.php');
-	//require_once('Operations/Print.php');
+	require_once('Operations/Print.php');
 
 	class OperationFactory{
 		public function getOperation($operationType,$operands){
@@ -23,7 +23,7 @@
 			        return new Divide($operands);
 			        break;
 			    case "Print":
-			        //return new Print($operands);
+			        return new PrintOperation($operands);
 			        break;
 			    default:
 			       return null;
